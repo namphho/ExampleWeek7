@@ -9,6 +9,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".MyApp"
         android:theme="@style/Theme.ExampleWeek7">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -18,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".NewWordActivity"
+            android:name=".NewStudentActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity" />
     </application>
